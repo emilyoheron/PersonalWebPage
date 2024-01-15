@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* styles/globals.css */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Align items to each end */
+  align-items: center; /* Center items vertically */
+  background-color: #333;
+  padding: 10px;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Adjust as needed */
+}
+
+.navItem {
+  margin: 0;
+}
+
+.appTitle {
+  font-weight: bold;
+  color: #fff; /* Your desired text color */
+}
+
+.iconContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
