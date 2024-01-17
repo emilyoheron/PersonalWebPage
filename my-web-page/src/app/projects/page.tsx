@@ -23,7 +23,7 @@ const projects: Project[] = [
     title: 'Mobile Applications',
     description: "I've developed several Flutter apps using Dart, each tailored for specific functionalities. These projects demonstrate my proficiency in Flutter and Dart, following standard practices and the Flutter framework principles. The code is organized with a focus on modularity and clean design patterns. Leveraging Flutter's widget library, I've created dynamic interfaces, incorporating features like ListView widgets for content display. The apps include interactive elements such as onTap functionalities and AlertDialogs for user experiences. Additionally, images, tabs, and various UI components are integrated to enhance visual appeal. The design prioritizes usability, ensuring clarity and consistency throughout the user interface.",
     imageUrls: ['/project2-2.png', '/project2-3.png', '/project2-4.png'],
-    videoUrl: '/project2-1.MOV'
+    videoUrl: '/project2-1.mov'
   },
   {
     id: 3,
