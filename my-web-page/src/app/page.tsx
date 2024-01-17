@@ -20,9 +20,9 @@ export default function Home() {
             
             My internship experiences in robotic process automation and test automation engineering have exposed me to real-world applications of computer science, allowing me to collaborate effectively in a team-oriented environment. What sets me apart is not only my technical proficiency but also my passion for continuous learning and adaptability. I have demonstrated a high capacity to rapidly learn and apply new concepts, technologies, and methodologies.<br/><br/>
             
-            I am eager to contribute my skills to a dynamic team, where I can further develop my abilities as a computer science professional while making meaningful contributions to innovative projects.
+            I am eager to contribute my skills to a dynamic team, where I can further develop my abilities as a computer science professional while making meaningful contributions to innovative projects.<br/><br/>
 
-            I enjoy a variety of hobbies and am always open to trying new ones. I like interior design, being creative, baking, and cooking up healthy meals. I also like to stay active and find joy in yoga, pilates, and being outside. Family is important to me, and I value spending quality time with them, often accompanied by my energetic golden doodle! My family and friends would describe me as adventurous, interpersonal, energetic, and easy-going.<br/><br/>
+            I enjoy a variety of hobbies and am always open to trying new ones. I like interior design, being creative, baking, and cooking up healthy meals. I also like to stay active and find joy in yoga, pilates, and being outside. Family is important to me, and I value spending quality time with them, often accompanied by my energetic golden doodle! My family and friends would describe me as adventurous, interpersonal, energetic, and easy-going.
           </p>
           <h2 className="text-xl font-semibold mb-4"> Self Description</h2>
           <ul className="list-disc list-inside text-gray-800 dark:text-gray-200 mb-6">
