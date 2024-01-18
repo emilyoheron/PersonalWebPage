@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles/globals.css */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -26,7 +27,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-/* styles/globals.css */
 .navbar {
   display: flex;
   justify-content: space-between; /* Align items to each end */
@@ -46,14 +46,15 @@ body {
   list-style: none;
   margin-right: 20px;
   display: inline-block;
+  color: #fff;
   font-size: 18px;
   position: relative;
   text-decoration: none;
 }
 
 .navItem.active {
-  border-bottom: 4px solid #fff; /* You can change the color to your preference */
-  padding-bottom: 8px;
+  border-bottom: 3px solid #fff; /* You can change the color to your preference */
+  padding-bottom: 7px;
 }
 
 .appTitle {
